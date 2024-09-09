@@ -1,0 +1,49 @@
+body {
+  background-image: url("bg50.png");
+}
+
+.stopwatch-container {
+  background-color: #333; /* customizable background color */
+  padding: 40px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 150px auto;
+  text-align: center;
+}
+
+.stopwatch-title {
+  color: #daece7;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.stopwatch-display {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+button {
+  background-color: #27aedf;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#lap-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#lap-list li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #fff;
+}
